@@ -34,132 +34,90 @@ Key features include:
 
 This project uses the following external libraries:
 
-* **Asio** (for networking functionality)
-* **Crow** (for building the web server/API)
-
----
+* **Asio** (for networking functionality, already included in repo)
+* **Crow** (for building the web server/API, see steps below)
 
 ### 📦 Installing Asio
 
-1. Download Asio from the official source:
-
-   * [https://think-async.com/Asio/](https://think-async.com/Asio/)
-
-2. Extract the downloaded `.tar.gz` file:
-
-```bash
-tar -xvf asio.tar.gz
+```
+curl -L https://github.com/chriskohlhoff/asio/archive/refs/tags/asio-1-18-2.tar.gz -o asio-1-18-2.tar.gz
 ```
 
-3. Locate the extracted folder (e.g., `asio-asio-1-18-2/`) and copy the necessary files into your project directory:
-
-   * `asio.hpp`
-   * `asio/` (entire folder)
-
-4. Your project structure should include:
-
+#### Extract
 ```
-/project-root
-  ├── asio/
-  ├── asio.hpp
+tar -xzf asio-1-18-2.tar.gz
 ```
 
----
+#### Copy required files
+```
+cp -r asio-asio-1-18-2/asio/include/asio .
+```
+
+```
+cp asio-asio-1-18-2/asio/include/asio.hpp .
+```
 
 ### 🌐 Installing Crow
 
-1. Download Crow:
-
-   * [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow)
-
-2. From the repository, copy the following file into your project:
-
-   * `crow_all.h`
-
-3. Place it in your project root or include directory:
-
-```
-/project-root
-  ├── crow_all.h
-```
+Already installed in the repository, no additional steps needed.
 
 ---
 
 ## 🛠️ How to Compile and Run
 
-### Compile:
+### Compile using Makefile Command:
 
 ```bash
-g++ -o program main.cpp file1.cpp file2.cpp
+make all
 ```
 
 ### Run:
 
 ```bash
-./program
+./server
 ```
-
-> If your program uses input files:
-
-```bash
-./program input.txt
-```
+Then right click on index.html, and click on Open With Live Server. This should open Schedule.io's interface in your browser.
 
 ---
 
 ## ▶️ Example Usage
 
-### Example 1:
+**Two/or more people have a meeting:**
 
-**Input:**
-
-```
-(User enters...)
-```
-
-**Output:**
-
-```
-(Program prints...)
-```
-
----
-
-### Example 2:
-
-**Input:**
-
-```
-...
-```
-
-**Output:**
-
-```
-...
-```
+- Organizer sends a Google Invite to person's email address
+- After meeting is complete, organizer evaluates the performance of the other person/people
+- Points are assigned respectively to each participant
+- Leaderboard automatically ranks participants with highest points
 
 ---
 
 ## 🖼️ Screenshots
 
-*(Insert screenshots below — VERY important for grading)*
+### Booting Up:
 
-### Main Menu:
+![Main Menu](images/Final-Boot-Up.png)
 
-![Main Menu](screenshots/menu.png)
+### Signing In:
 
-### Example Output:
+![Signing In](images/Final-Signing-In.png)
 
-![Output](screenshots/output.png)
+### Signed In:
 
-> 💡 Put your screenshots in a `/screenshots` folder
+![Signed In](images/Final-Signed-In.png)
+
+### Calendar Event Created:
+
+![Event Created](images/Final-Calendar-Event.png)
+
+### 3 Participants in Leaderboard Ranked:
+
+![Leaderboard](images/Final-3-Participants.png)
 
 ---
 
 ## 🤖 AI Tools Used
 
-During the development of this project, the following AI tools were used:
+During the development of this project we used ChatGPT:
 
 * **ChatGPT (OpenAI)**
 
@@ -175,19 +133,6 @@ During the development of this project, the following AI tools were used:
   * “Help debug this segmentation fault in C++”
   * “Explain how to structure a class for ___”
 
-* Chat links (if required by professor):
-
-  * *(Paste links here if you have them)*
-
-All AI-generated suggestions were reviewed, tested, and modified as necessary to ensure correctness and alignment with project requirements.
-
----
-
-## 📌 Notes / Limitations
-
-* Limitation 1
-* Limitation 2
-* Future improvements could include:
-
-  * ---
-  * ---
+  https://chatgpt.com/share/69effd0e-c960-83ea-b07f-52fb827e8e22
+  
+  https://chatgpt.com/share/69efffeb-7bb8-83ea-9ff6-9f38430cb0a6

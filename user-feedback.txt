@@ -1,0 +1,13 @@
+User feedback prototype
+
+1. Joshua Gray (Student studying Business Analytics): Initial reaction was how was this different from normal Google Calendar, once introduced to the leaderboard feature found it useful and different from other applications. Rated app (4.5/5)
+2. Zachary Stevens (Student studying Economics): Liked the 3 button feature, with send email, sign in, and create event. Wanted to see more color and interactivity with the app. Rated app (4/5) 
+3. Spencer MacInnis (Student studying Accounting): It was a very straightforward interface; I appreciated the instant addition to the leaderboard with no delay. The delete points feature is helpful, but perhaps a button in which you could add a single point could be added. Rated app (4.5/5)
+4. TJ Addonizio (Student studying Business Finance): I had a great time making my leaderboard. I thought it was very intuitive and precise. If there was a clear name feature to make the function quicker that would be helpful. Overall, this was a good app. Rated app (4.25/5)
+
+User feedback Final Version
+
+1. Joshua Gray (Student studying Business Analytics): Favorite part was the leaderboard feature, and how easy it was to use. The interface and interactivity made it easy to schedule meetings with people. Liked the security feature that only Richmond users can send and receive emails. Rated app (5/5)
+2 Zachary Stevens (Student studying Economics): Liked how the overall leaderboard feature changed from when there were no participants yet to when the first person was added. Still wanted more style to the website to make it more appealing. Rated app (4/5) 
+3. Spencer MacInnis (Student studying Accounting): It was very easy to sign in and it is great that it can be found right above the leaderboard controls. Choosing the dates of the event was easy but picking a specific time was not intuitive to me. Overall, it was effortless and a useful interface. Rated app (4.5/5)
+4. TJ Addonizio (Student studying Business): Very intuitive process and easy to navigate. I like how you use a calendar to select the start and end date/time. Overall, useful and simple. Rated app (4.25/5)

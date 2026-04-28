@@ -1,0 +1,11 @@
+1. Implementing the Sign-in, Send Email, and Create Event in C++ to using the Google Calendar Rest API
+
+2. Fully JavaScript front end to c++ backend with Crow C++ Rest API connecting the two together
+
+3. Having a strict email be the form of setting points to just having the meeting organizer able to put whatever name they want into the leaderboard
+
+4. Having the leaderboard only show top 3 to having top 10
+
+5. Implementing the leaderboard in HTML and changing the functionality of it to be controlled through JS and C++
+
+6. Having originally just +5 point button to having +5 +10 + 15 buttons to make changing of the leaderboard easier and higher incentive for people to perform better
